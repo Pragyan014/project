@@ -1,0 +1,41 @@
+.header{
+    height: 40vw;
+    margin: 30px auto;
+    background-image: url(https://th.bing.com/th/id/OIP.RiN1PnhueQbNI7W8jbqxIAHaE8?rs=1&pid=ImgDetMain);
+    background-repeat: no-repeat;
+    background-size:contain ;
+    position : relative;
+}
+.header-content{
+    position:absolute;
+    color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap:2vw;
+    max-width: 50%;
+    bottom: 30%;
+    left: 5vw;
+}
+.header-content h1{
+    font-weight: 300px;
+    font-size: max(3vw, 20px);
+}
+.header-content p{
+    font-size: 1vw;
+}
+.header-content button{
+    border: none;
+    color: peru;
+    background-color:antiquewhite ;
+    font-weight:600 ;
+    padding: 1vw 2.3vw;
+    border-radius: 50px;
+    font-size: max(1vw, 15px);
+    cursor: pointer;
+    transition: 0.2s;
+}
+.header-content button:hover{
+    background-color: rgba(165, 42, 42, 0.849);
+    color: antiquewhite;
+}

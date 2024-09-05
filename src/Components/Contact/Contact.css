@@ -1,0 +1,70 @@
+
+.contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    background-color: brown;
+
+    color:antiquewhite;
+}
+.contact-left{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap:2vw;
+    max-width: 50%;
+    padding: 2.5vw;
+}
+.location{
+    display: flex;
+    flex-direction: row;
+    align-items:center ;
+    gap:2vw;
+}
+.call{
+    display: flex;
+    flex-direction: row;
+    align-items:center ;
+    gap:2vw;
+}
+.email{
+    display: flex;
+    flex-direction: row;
+    align-items:center ;
+    gap:2vw;
+}
+.contact-right{
+    padding: 20px;
+    background-color: whitesmoke;
+    justify-content: center;
+}
+.contact-right form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact-right input{
+    width: 30vw;
+    margin-bottom: 30px;
+   color: #4e4e4e;
+    color: peru;
+    border: none;
+    border-radius: 5px;
+    padding:20px;
+    align-items: center;
+    font-weight: 20px;
+}
+.contact button{
+    background: transparent;
+    font-size: 15px;
+    padding: 10px 30px;
+    color: brown;
+    border: 1px solid brown;
+    border-radius: 30px;
+    cursor: pointer;
+    transition:0.2s linear;
+}
+.contact button:hover{
+    background-color: rgb(174, 42, 42) ;
+    color: antiquewhite;
+}

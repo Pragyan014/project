@@ -1,0 +1,9 @@
+.copy{
+    background-color: rgba(237, 181, 163, 0.47);
+    padding:20px;
+    color: brown;
+    font-size: 20px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
