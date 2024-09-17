@@ -31,7 +31,7 @@ const Contact = () => {
     <div className="goolgle-link">
         
     </div>
-    <div className="contact">
+    <div id="contact" className="contact">
         <div className="contact-left">
             <h2>Get in touch</h2>
             <p>If you want to custom make your suits then we are here. Feel free to contact us. You will find various options with high quality making.</p>

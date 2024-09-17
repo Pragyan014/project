@@ -2,10 +2,10 @@ import React from 'react'
 import Navbar from "./Components/Navbar/Navbar"
 import { Route, Routes } from 'react-router-dom'
 import Home from './pages/Home/Home'
-
 import Aboutus from './pages/Aboutus/Aboutus'
 import Copyright from './Components/Copyright/Copyright'
-import Contact from './Components/Contact/Contact'
+import Error from './pages/Errorpage/Error'
+
 
 const App = () => {
   return (
@@ -14,7 +14,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/about-us" element={<Aboutus/>}/>
-        <Route path="/contact" element={<Contact/>}/>
+        <Route path="*" element={<Error/>}/>
       </Routes>
       <Copyright/>
     </div>
