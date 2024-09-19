@@ -5,22 +5,22 @@ import { Link } from 'react-router-dom'
 
 
 const Navbar = () => {
-    const[menu,setMenu]=useState("home")
+    const[menu,setMenu]=useState("home");
+const [navbar,setNavbar]=useState("true");
+
   return (
-    <div className="navbar">
+    <nav className={navbar ? "navbar active" : "navbar"}>
         <img src={assets.menslogo} alt="" className="logo"/>
         <ul className="navbar-menu">
             <li onClick={()=>setMenu("home")} className={menu==="home"?"active":""}><Link to="/">Home</Link></li>
             <li onClick={()=>setMenu("service")} className={menu==="service"?"active":""}><Link to="/service">Services</Link></li>
-            <li onClick={()=>setMenu("gallary")} className={menu==="gallary"?"active":""}><Link to="/gallary">Gallary</Link></li>
-            <li onClick={()=>setMenu("About-us")} className={menu==="about-us"?"active":""}><Link to="/about-us">About us</Link></li>
+            <li onClick={()=>setMenu("about-us")} className={menu==="about-us"?"active":""}><Link to="/about-us">About us</Link></li>
+            <li><button><a href="#contact">Contact-us</a></button></li>
         </ul>
-        <div className="navbar-right">
-            <button><a href="#contact">Contact-us</a></button>
-        </div>
+        
 
 
-    </div>
+    </nav>
   )
 }
 

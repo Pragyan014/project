@@ -1,0 +1,43 @@
+.service-box{
+    background-color: rgb(203, 191, 191);
+    border-radius:5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 100px;
+    height: 400px;
+    cursor: pointer;
+
+}
+.service-box:hover{
+    border: 1px solid rgb(237, 166, 112);
+    box-shadow: 2px 2px 12px rgb(237, 166, 112);
+
+}
+
+.s-b-text{
+    display:flex;
+    color: brown;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.s-b-text h2{
+    color: brown;
+} 
+.s-b-text p{
+    color:rgb(165, 42, 42);
+    font-size: 1.4vw;
+    display: -webkit-box;
+    max-width: 80%;
+    margin-top: 5px;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 10px;
+
+}
